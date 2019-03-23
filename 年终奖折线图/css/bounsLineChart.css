@@ -1,0 +1,157 @@
+body{
+	-moz-user-select: none; -khtml-user-select: none; user-select: none;
+}
+h1{
+	text-align: center;
+	font-size: 28px;
+	line-height: 56px;
+	position: relative;
+	top: 30px;
+}
+.chart-box{
+	width: 1200px;
+	height: 600px;
+	margin: 50px auto;
+	position: relative;
+}
+.chart-box>#chart-box{
+	width: 100%;
+	height: 100%;
+}
+.box-shade{
+	width: 964px;
+    height: 480px;
+    position: absolute;
+    top: 59.6px;
+    right: 115px;
+    overflow: hidden;
+    z-index:1
+}
+.roundness-box{
+	width: 962px;
+	height: 5px;
+	border-radius: 5px;
+	background: #3598dc;
+	margin: 0 auto;
+	position: relative;
+	bottom: 50px;
+}
+.roundness{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background: #3598dc;
+	box-shadow: 0 0 8px #ccc;
+	cursor: pointer;
+	position: relative;
+	bottom: 8px;
+}
+.box-shade img{
+	position: absolute;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+.dot-box{
+	width: 962px;
+    height: 489px;
+    position: absolute;
+    top: 52px;
+    right: 119px;
+
+}
+.dot{
+	width: 5px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid red;
+}
+.dot1{
+	left: 140px;
+    top: 401px;
+}
+.dot2{
+	left: 151px;
+    top: 401px;
+}
+.dot3{
+	left: 429px;
+    top: 252px;
+}
+.dot4{
+	left: 476px;
+    top: 252px;
+}
+.dot5{
+	left: 861px;
+    top: 68px;
+}
+.dot6{
+	left: 913px;
+    top: 68px;
+}
+.dot>div{
+	display: inline;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	top: 8px;
+	font-size: 12px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	display: none;
+	width: 126px;
+	line-height: 21px;
+	z-index: 9;
+}
+.dot:hover>div{
+	display: block;
+}
+.roundness-box .a{
+	width: 100%;
+	height: 100%;
+	background: #eee;
+	position: absolute;
+	right: 0;
+}
+.hit-line{
+	width: 80px;
+	height: 3px;
+	border-radius: 5px;
+	background: #FF0000;
+}
+.hit-box{
+	position: absolute;
+	right: -20px;
+	top: 220px;
+	line-height: 36px;
+}
+.hit-box>div{
+	margin-bottom: 20px;
+}
+.box-shade{
+	background: rgba(255, 255, 255, 1);
+}
+.box-shade .hen li{
+	width: 100%;
+	height: 1px;
+	background: #ccc;
+	margin-bottom: 95px;
+}
+.box-shade .su{
+	position: absolute;
+	top: 0;
+}
+.box-shade .su li{
+	width: 1px;
+	height: 482px;
+	background: #ccc;
+	margin-left: 191.6px;
+	float: left;
+}
+.box-shade .hen li:last-child{
+	margin: 0;
+}
