@@ -13,14 +13,14 @@ var option = {
     xAxis: {
         name: '个税',
         min: 0,
-        max: 25,
-        splitNumber: 6,
+        max: 20,
+        splitNumber: 5,
     },
     yAxis: {
         name: '税后收入',
         min: 0,
-        max: 25,
-        splitNumber: 6,
+        max: 20,
+        splitNumber: 5,
     },
     series: [{
     	name: '税后收入',
